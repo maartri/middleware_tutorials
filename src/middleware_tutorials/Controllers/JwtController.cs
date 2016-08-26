@@ -53,7 +53,7 @@ namespace middleware_tutorials.Controllers
                 identity.FindFirst("DisneyCharacter")
             };
 
-            // Create the JWT security token and encode it.
+
             var jwt = new JwtSecurityToken(
                 issuer: _jwtOptions.Issuer,
                 audience: _jwtOptions.Audience,
