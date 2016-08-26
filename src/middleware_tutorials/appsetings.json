@@ -1,0 +1,14 @@
+﻿{
+  "JwtIssuerOptions": {
+    "Issuer": "TokenServer",
+    "Audience": "http://localhost:65091/"
+  },
+  "Logging": {
+    "IncludeScopes": false,
+    "LogLevel": {
+      "Default": "Debug",
+      "System": "Information",
+      "Microsoft": "Information"
+    }
+  }
+}
